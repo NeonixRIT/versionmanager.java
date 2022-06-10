@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+
 public class Remote extends Project {
     private final String sURL;
     private final String separator;
@@ -46,6 +47,7 @@ public class Remote extends Project {
         try {
             Release release = this.poll();
             this.setVersion(new Version(release.tag_name, this.separator));
+            this.data = release;
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -58,11 +60,6 @@ public class Remote extends Project {
     }
 
     public Release getData() {
-        try {
-            return this.data;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
+        return this.data;
     }
 }

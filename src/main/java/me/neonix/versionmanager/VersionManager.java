@@ -11,7 +11,7 @@ public class VersionManager {
     private Remote remote;
 
     private Status status;
-    private final HashSet<RefreshObserver> observers;
+    private final HashSet<StatusObserver> observers;
 
     public VersionManager(String author, String projectName, String version, String separator) {
         this.author = author;
@@ -30,12 +30,12 @@ public class VersionManager {
     }
 
     private void notifyObservers() {
-        for (RefreshObserver observer : this.observers) {
-            observer.invoke(this.status);
+        for (StatusObserver observer : this.observers) {
+            observer.invoke(this.status, this.getRelease());
         }
     }
 
-    public void registerObserver(RefreshObserver observer) {
+    public void registerObserver(StatusObserver observer) {
         this.observers.add(observer);
     }
 

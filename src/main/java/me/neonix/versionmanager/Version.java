@@ -1,8 +1,5 @@
 package me.neonix.versionmanager;
 
-import java.util.Collections;
-import java.util.LinkedList;
-
 public class Version implements Comparable<Version> {
     private final String[] versionList;
     private final String version;

@@ -11,11 +11,6 @@ public abstract class Project {
         this.version = version;
     }
 
-    @Override
-    public String toString() {
-        return "Project[" + this.author + ", " + this.name + ", " + this.version + "]";
-    }
-
     public void setVersion(Version version) {
         this.version = version;
     }
