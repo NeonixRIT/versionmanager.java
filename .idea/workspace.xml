@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8db08dd9-384c-4e75-80e4-62ac3b49546e" name="Changes" comment="add versionmanager.iml">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/RefreshObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/StatusObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Remote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/VersionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/VersionManager.java" afterDir="false" />
+    <list default="true" id="8db08dd9-384c-4e75-80e4-62ac3b49546e" name="Changes" comment="sync code with improvements made when .net was released">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanagerjava/VersionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Local.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Release.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanagerjava/Release.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Remote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanagerjava/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/StatusObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanagerjava/StatusObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Version.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/VersionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/versionmanager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/versionmanager.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +36,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Local.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Project.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Release.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Remote.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Status.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/Version.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/me/neonix/versionmanager/VersionManager.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,28 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kamron Cole/IdeaProjects/versionmanager&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Kamron Cole/IdeaProjects/versionmanager/src/main/java/me/neonix/versionmanager",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kamron Cole\IdeaProjects\versionmanager\src\main\java\me\neonix\versionmanager" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Kamron Cole\IdeaProjects\versionmanager\src\main\java\me\neonix\versionmanager" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Maven.versionmanager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -126,7 +128,8 @@
       <workItem from="1654596860002" duration="9077000" />
       <workItem from="1654642843820" duration="131000" />
       <workItem from="1654643849533" duration="9198000" />
-      <workItem from="1654730884298" duration="6661000" />
+      <workItem from="1654730884298" duration="6757000" />
+      <workItem from="1655144685103" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <created>1654642232674</created>
@@ -156,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654642894080</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sync code with improvements made when .net was released">
+      <created>1654842547843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654842547843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +200,8 @@
     <MESSAGE value="remove target files" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add versionmanager.iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add versionmanager.iml" />
+    <MESSAGE value="sync code with improvements made when .net was released" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync code with improvements made when .net was released" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

@@ -1,4 +1,4 @@
-package me.neonix.versionmanager;
+package me.neonix.versionmanagerjava;
 
 import java.util.EventListener;
 

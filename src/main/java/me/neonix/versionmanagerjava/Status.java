@@ -1,4 +1,4 @@
-package me.neonix.versionmanager;
+package me.neonix.versionmanagerjava;
 
 public enum Status {
     OUTDATED,
